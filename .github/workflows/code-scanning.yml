@@ -32,7 +32,7 @@ jobs:
           args: . --sarif --output njsscan.sarif
       - name: Upload njsscan scan results
         if: always()
-        uses: github/codeql-action/upload-sarif@v3
+        uses: github/codeql-action/upload-sarif@v4
         with:
           sarif_file: njsscan.sarif
   dependency-review:
@@ -62,6 +62,6 @@ jobs:
         continue-on-error: true
       - name: Upload OSV-Scanner results
         if: always()
-        uses: github/codeql-action/upload-sarif@v3
+        uses: github/codeql-action/upload-sarif@v4
         with:
           sarif_file: osv-results.sarif
