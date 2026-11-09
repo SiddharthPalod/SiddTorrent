@@ -4,7 +4,9 @@ SiddTorrent is a feature-rich, high-performance BitTorrent engine and web consol
 
 ---
 
-[Demo Video](https://youtu.be/J4hbMuCiYVo)  
+### Demo
+[![SiddTorrent Demo](https://img.youtube.com/vi/J4hbMuCiYVo/maxresdefault.jpg)](https://youtu.be/J4hbMuCiYVo)
+[Watch the full demo on YouTube](https://youtu.be/J4hbMuCiYVo)
 
 ## 🚀 Primary Interface: Web Console
 
